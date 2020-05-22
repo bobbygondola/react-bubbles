@@ -14,7 +14,7 @@ body,
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
-
+  background-color: rgb(255, 83, 169);
   svg {
     height: 100%;
   }
@@ -31,9 +31,11 @@ body,
 }
 
 .colors-wrap {
-  height: 100%;
+  height: fit-content;
   width: 300px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding-left: 2%;
+  padding-right: 2%;
 
   ul {
     list-style: none;
@@ -50,7 +52,7 @@ body,
 }
 
 .delete {
-  color: rgb(216, 87, 87);
+  color: rgb(255, 0, 0);
 }
 
 .color-box {
@@ -96,4 +98,68 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.loginForm{
+  color: white;
+  border: 1px solid black;
+	height: 300px;
+	width: 400px;
+	padding: 5px 20px;
+	border-radius: 20px;
+	background-color: rgba(221, 205, 205, 0.5);
+  margin: 50px auto;
+  margin-top: 30%;
+  margin-left: 70%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+	form{
+
+		input{
+			width: 200px;
+			margin: 10px auto;
+		}
+
+		button{
+			width: 33%;
+			margin: 0px auto;
+		}
+	}
+}
+.newColorForm{
+  color: white;
+  height: 200px;
+  border: 1px solid black;
+	width: 250px;
+	padding: 5px 20px;
+	border-radius: 20px;
+	background-color: rgba(235, 104, 104, 0.5);
+  margin: 50px auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  
+  form{
+		input{
+			width: 200px;
+			margin: 10px auto;
+		}
+
+  }
+  button{
+    background-color: rgb(178, 178, 248);
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 25px;
+  }
+}
+.navbuts{
+  background-color: rgb(255, 187, 244);
+  border-radius: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100px;
+  height: 35px;
+  margin-left: 3%;
+}
+.nav{
+border-right: 5px solid black;
 }
