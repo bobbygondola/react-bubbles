@@ -5,9 +5,12 @@ import "./styles.scss";
 import BubblePage from './components/BubblePage'
 import PrivateRoute from "./utils/PrivateRoute"
 import ColorList from "./components/ColorList";
+import Nav from './components/Nav';
+import "./style.css";
 function App() {
   return (
       <div className="App">
+        <Nav />
         <Switch>
         <Route exact path="/" component={Login} />
         <Route exact path="colorlist" component={ColorList}/>

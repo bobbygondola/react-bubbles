@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axiosWithAuth from '../utils/axiosWithAuth'
 import {useHistory} from 'react-router-dom';
+import AddColorsForm from './AddColorsForm'
 
 const initialColor = {
   color: "",
@@ -45,6 +46,7 @@ const ColorList = ({ colors, updateColors }) => {
   return (
     <div className="colors-wrap">
       <p>colors</p>
+      <AddColorsForm />
       <ul>
         {colors.map(color => (
           <li key={color.color} onClick={() => editColor(color)}>
@@ -96,7 +98,7 @@ const ColorList = ({ colors, updateColors }) => {
         </form>
       )}
       <div className="spacer" />
-      {/* stretch - build another form here to add a color */}
+      
     </div>
   );
 };

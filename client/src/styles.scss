@@ -30,7 +30,7 @@ body,
 }
 
 .colors-wrap {
-  height: 100%;
+  height: fit-content;
   width: 300px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
@@ -96,8 +96,49 @@ form {
     margin-top: 16px;
   }
 }
+
 .loginForm{
-  background-color: silver;
-  padding: 10%;
-  margin: 0 auto;
+	color: white;
+	height: 300px;
+	width: 400px;
+	padding: 5px 20px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.5);
+	margin: 50px auto;
+
+	form{
+
+		input{
+			width: 200px;
+			margin: 10px auto;
+		}
+
+		button{
+			width: 33%;
+			margin: 0px auto;
+		}
+	}
+}
+.newColorForm{
+  color: white;
+	height: 200px;
+	width: 200px;
+	padding: 5px 20px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.5);
+  margin: 50px auto;
+  
+  form{
+
+		input{
+			width: 200px;
+			margin: 10px auto;
+		}
+
+  }
+  button{
+    width: 33%;
+    margin: 0 auto;
+    border-radius: 25px;
+  }
 }
