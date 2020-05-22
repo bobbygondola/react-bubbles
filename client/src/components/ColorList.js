@@ -45,7 +45,7 @@ const ColorList = ({ colors, updateColors }) => {
 
   return (
     <div className="colors-wrap">
-      <p>colors</p>
+      <h2>colors</h2>
       <AddColorsForm />
       <ul>
         {colors.map(color => (
